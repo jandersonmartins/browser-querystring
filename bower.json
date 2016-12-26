@@ -1,0 +1,23 @@
+{
+  "name": "browser-querystring",
+  "main": "./dist/browser-querystring.min.js",
+  "version": "1.0.0",
+  "authors": [
+    "Janderson Martins <jandersonmartins10@gmail.com>"
+  ],
+  "ignore": [
+    ".gitignore",
+    "bower.json",
+    "package.json",
+    "README.md"
+  ],
+  "description": "Transform querystring in object",
+  "keywords": [
+    "querystring"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "devDependencies": {
+    "qunit": "^2.1.0"
+  }
+}

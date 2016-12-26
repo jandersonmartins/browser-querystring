@@ -1,0 +1,19 @@
+{
+  "name": "browser-querystring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/browser-querystring.min.js",
+  "scripts": {
+    "transpile": "node_modules/.bin/babel browser-querystring.js -d dist",
+    "minify": "uglifyjs ./dist/browser-querystring.js -o ./dist/browser-querystring.min.js",
+    "build": "npm run transpile && npm run minify"
+  },
+  "keywords": ["querystring"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-env": "^1.1.4",
+    "uglify-js": "^2.7.5"
+  }
+}
